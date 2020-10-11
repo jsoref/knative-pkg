@@ -38,7 +38,7 @@ func ExampleChooseSubset_selectOne() {
 	ret := ChooseSubset(tasks, 1, "my-key1")
 	fmt.Println(ret.UnsortedList()[0])
 
-	ret = ChooseSubset(tasks, 1, "somthing/another-key")
+	ret = ChooseSubset(tasks, 1, "something/another-key")
 	fmt.Println(ret.UnsortedList()[0])
 	// Output: task3
 	// task1
