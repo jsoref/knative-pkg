@@ -1,5 +1,6 @@
 ^\.github/actions/spelling/
 ^third_party/
+^vendor/
 (?:^|/)go\.(sum|mod)$
 \.ai$
 \.eps$
