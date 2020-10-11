@@ -1,7 +1,8 @@
 ^\.github/actions/spelling/
 ^third_party/
 ^vendor/
-(?:^|/)go\.(sum|mod)$
+(?:^|/)go\.(?:sum|mod)$
+(?:^|/)OWNERS(?:_ALIASES|)$
 \.ai$
 \.eps$
 \.gitattributes$
