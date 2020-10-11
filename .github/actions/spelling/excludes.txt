@@ -1,4 +1,5 @@
 ^\.github/actions/spelling/
+^changeset/testdata/
 ^third_party/
 ^vendor/
 (?:^|/)go\.(?:sum|mod)$
