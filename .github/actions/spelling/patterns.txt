@@ -12,3 +12,4 @@ traceID = "[0-9a-f]*"
 Identity: "[^"]*"
 # ignore long runs of a single character:
 \b([A-Za-z])\1{3,}\b
+k8s
